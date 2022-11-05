@@ -79,7 +79,7 @@ from setuptools import find_packages, setup
 # 2. once modified, run: `make deps_table_update` to update src/diffusers/dependency_versions_table.py
 _deps = [
     "Pillow<10.0",  # keep the PIL.Image.Resampling deprecation away
-    "accelerate>=0.11.0",
+    "accelerate==0.12.0",
     "black==22.8",
     "datasets",
     "filelock",
@@ -92,7 +92,8 @@ _deps = [
     "jax>=0.2.8,!=0.3.2",
     "jaxlib>=0.1.65",
     "modelcards>=0.1.4",
-    "numpy",
+    "numpy==1.21.0",
+    "onnxruntime",
     "parameterized",
     "pytest",
     "pytest-timeout",
