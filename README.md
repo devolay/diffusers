@@ -15,15 +15,8 @@
     </a>
 </p>
 
-🤗 Diffusers provides pretrained diffusion models across multiple modalities, such as vision and audio, and serves
-as a modular toolbox for inference and training of diffusion models.
 
-More precisely, 🤗 Diffusers offers:
-
-- State-of-the-art diffusion pipelines that can be run in inference with just a couple of lines of code (see [src/diffusers/pipelines](https://github.com/huggingface/diffusers/tree/main/src/diffusers/pipelines)). Check [this overview](https://github.com/huggingface/diffusers/tree/main/src/diffusers/pipelines/README.md#pipelines-summary) to see all supported pipelines and their corresponding official papers.
-- Various noise schedulers that can be used interchangeably for the preferred speed vs. quality trade-off in inference (see [src/diffusers/schedulers](https://github.com/huggingface/diffusers/tree/main/src/diffusers/schedulers)).
-- Multiple types of models, such as UNet, can be used as building blocks in an end-to-end diffusion system (see [src/diffusers/models](https://github.com/huggingface/diffusers/tree/main/src/diffusers/models)).
-- Training examples to show how to train the most popular diffusion model tasks (see [examples](https://github.com/huggingface/diffusers/tree/main/examples), *e.g.* [unconditional-image-generation](https://github.com/huggingface/diffusers/tree/main/examples/unconditional_image_generation)).
+This is a fork of original diffusers repository from HuggingFace. This repo allow to run DreamBooth training on AWS SageMaker by accelerate package.
 
 ## Installation
 
